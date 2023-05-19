@@ -1,0 +1,183 @@
+{
+  "title": "documentation",
+  "type": "object",
+  "properties": {
+    "label":{
+      "type": "string"
+    },
+    "company": {
+      "title": "",
+      "type": "string",
+      "oneOf": [
+        {
+          "const": "free_reseau",
+          "title": "FREE Reseau"
+        },
+        {
+          "const": "play",
+          "title": "PLAY"
+        }
+      ]
+    },
+    "document_language": {
+      "title": "",
+      "type": "string",
+      "oneOf": [
+        {
+          "const": "en-US",
+          "title": "English"
+        },
+        {
+          "const": "fr-FR",
+          "title": "French"
+        },
+        {
+          "const": "pl-PL",
+          "title": "Polski"
+        }
+      ]
+    },
+    "project_name": {
+      "title": "",
+      "type": "string"
+    },
+    "project_type": {
+      "title": "",
+      "type": "string",
+      "default":"no_project_selected",
+      "enum": [
+        "no_project_selected",
+        "infra_survey",
+        "cable_laying",
+        "splicing_plan",
+        "civil_engineering"
+      ],
+      "enumNames": [
+        "no project selected",
+        "Infra Survey",
+        "Cable Laying",
+        "Splicing Plan",
+        "Civil Engineering"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "project_type": {
+            "const": "infra_survey"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "attribute": {
+            "title": "",
+            "description": "Name of the attribute to filter",
+            "type": "string",
+            "enum": [
+              "emprise",
+              "tag"
+            ]
+          },
+          "value": {
+            "$ref": "#/definitions/value"
+          }
+        }
+      },
+      "required":["value", "attribute"]
+    },
+    {
+      "if": {
+        "properties": {
+          "project_type": {
+            "const": "cable_laying"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "attribute": {
+            "$ref": "#/definitions/attribute"
+          },
+          "value": {
+            "$ref": "#/definitions/value"
+          }
+        }
+      },
+      "required":["value", "attribute"]
+    },
+    {
+      "if": {
+        "properties": {
+          "project_type": {
+            "const": "civil_engineering"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "attribute": {
+            "$ref": "#/definitions/attribute"
+          },
+          "value": {
+            "$ref": "#/definitions/value"
+          }
+        }
+      },
+      "required":["value", "attribute"]
+    },
+    {
+      "if": {
+        "properties": {
+          "project_type": {
+            "const": "splicing_plan"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "attribute": {
+            "$ref": "#/definitions/attribute"
+          },
+          "value": {
+            "title": "",
+            "description": "value of the attribute to filter",
+            "type": "array",
+            "items": {
+              "title": "Value Splicing Plan",
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9-_]+$"
+            }
+          }
+        }
+      },
+      "required":["value", "attribute"]
+    }
+  ],
+  "definitions": {
+    "attribute": {
+      "title": "",
+      "description": "Name of the attribute to filter",
+      "type": "string",
+      "enum": [
+        "code",
+        "emprise",
+        "tag"
+      ]
+    },
+    "value": {
+      "title": "",
+      "description": "value of the attribute to filter",
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9-_]+$"
+    }
+  },
+  "required": [
+    "label",
+    "company",
+    "document_language",
+    "project_type"
+  ]
+}

@@ -1,0 +1,451 @@
+/********GENERAL***********/
+.MuiInputBase-root.Mui-disabled > svg {
+  margin-right: 1rem;
+}
+label + .MuiInput-formControl > svg {
+  margin-right: 1rem;
+}
+/***********INFO*************************/
+
+#splice_attribute {
+  width: 90%;
+  display: block;
+  margin: 0 auto !important;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 95%;
+}
+#content_attribute > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+  font-size: 0.8rem;
+}
+#content_attribute > div > div > div {
+  background-color: rgba(220, 220, 220, 0.3);
+  margin-top: 5px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#splice_value {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#content_value > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+  font-size: 0.8rem;
+}
+#content_value > div > div > div {
+  background-color: rgba(220, 220, 220, 0.3);
+  margin-top: 5px;
+  border-radius: 5px 5px 0px 0px;
+}
+#content_label > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+  font-size: 0.8rem;
+}
+#content_label > div > div > div {
+  background-color: rgba(220, 220, 220, 0.3);
+  margin-top: 5px;
+  border-radius: 5px 5px 0px 0px;
+}
+#splice_info_user-label {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0;
+  position: absolute;
+  top: 95%;
+  left: 10%;
+}
+
+#splice_info_attribute {
+  text-align: center;
+}
+
+#splice_info_attribute-label {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 95%;
+  left: 10%;
+}
+#splice_info_value-label {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 95%;
+  left: 10%;
+}
+#splice_info_value {
+  text-align: center;
+}
+#splice_label {
+  text-align: center;
+}
+/*****************CABLES********************/
+/******cable-transport*******/
+
+.form-group .field .field-string {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-size: 1.1rem;
+}
+#splice_cables_constraints_tr_reserve_percentage {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0 0 0;
+}
+#splice_cables_constraints_tr_max_length {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0 0 0;
+}
+#splice_cables_constraints_tr_length_tolerance_percentage {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0 0 0;
+}
+#content_cables > div > div > div > div > div:nth-child(1) {
+  background-color: #002d30;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+#tr > #content_tr > div > div > div > div > div:nth-child(1) {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+#content_tr {
+  margin-bottom: 15px;
+}
+#content_max_length > div > div > label {
+  display: none;
+}
+#content_reserve_percentage > div > div > label {
+  display: none;
+}
+#content_length_tolerance_percentage > div > div > label {
+  display: none;
+}
+#content_length_tolerance_percentage > div > div:nth-last-child(1) {
+  margin-bottom: 20px;
+}
+#authorized_ref > fieldset > div {
+  height: 200px;
+  margin-left: 0px;
+  letter-spacing: 1px;
+}
+#authorized_ref > fieldset > div > div > label {
+  display: none;
+}
+#splice_cables_constraints_tr_authorized_ref {
+  width: 100%;
+  height: 160px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  display: block;
+}
+#splice_cables_constraints_tr_authorized_ref > label {
+  display: block;
+}
+/******cable-distribution*******/
+#di > #content_di > div > div > div > div > div:nth-child(1) {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+#splice_cables_constraints_di_reserve_percentage {
+  width: 100%;
+}
+#splice_cables_constraints_di_max_length {
+  width: 100%;
+}
+#splice_cables_constraints_di_length_tolerance_percentage {
+  width: 100%;
+}
+#splice_cables_constraints_di_authorized_ref {
+  width: 100%;
+  height: 160px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  display: block;
+}
+#splice_cables_constraints_di_authorized_ref > label {
+  display: block;
+}
+/******cable-adduction*******/
+#ad > #content_ad > div > div > div > div > div:nth-child(1) {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+#splice_cables_constraints_ab__title {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+#splice_cables_constraints_ad_authorized_ref {
+  width: 100%;
+  height: 160px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  display: block;
+}
+#splice_cables_constraints_ad_authorized_ref > label {
+  display: block;
+}
+/******cable-subscriber*******/
+#ab > #content_ab > div > div > div > div > div:nth-child(1) {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+#splice_cables_constraints_ab_authorized_ref {
+  width: 100%;
+  height: 160px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  display: block;
+}
+#splice_cables_constraints_ab_authorized_ref > label {
+  display: block;
+}
+
+/*****************NODES*******************/
+/******nodes-transport*******/
+#splice_nodes > #content_nodes > div > div > div > div > div:nth-child(1) {
+  background-color: #002d30;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 100%;
+}
+#splice_nodes_constraints_tr__title {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+#splice_nodes_constraints_tr_authorized_ref {
+  width: 90%;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  text-align: start;
+}
+#splice_nodes_constraints_tr_authorized_ref > div > label {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: block;
+}
+
+/******nodes-distribution*******/
+#splice_nodes_constraints_di__title {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+#splice_nodes_constraints_di_authorized_ref {
+  width: 90%;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  text-align: start;
+}
+#splice_nodes_constraints_di_authorized_ref > div > label {
+  display: block;
+}
+#splice_nodes_constraints_di_authorized_ref > div > label > span > input {
+  margin-right: 20px;
+}
+
+/******nodes-adduction*******/
+#splice_nodes_constraints_ad__title {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+#splice_nodes_constraints_ad_authorized_ref {
+  width: 90%;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  text-align: start;
+}
+#splice_nodes_constraints_ad_authorized_ref > div > label {
+  display: block;
+}
+#splice_nodes_constraints_ad_authorized_ref > div > label > span > input {
+  margin-right: 20px;
+}
+
+/******nodes-subscriber*******/
+#splice_nodes_constraints_ab__title {
+  background-color: rgba(0, 45, 48, 0.9);
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+#splice_nodes_constraints_ab_authorized_ref {
+  width: 90%;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  text-align: start;
+}
+#splice_nodes_constraints_ab_authorized_ref > div > label > span > input {
+  margin-right: 20px;
+}
+#splice_nodes_constraints_ab_authorized_ref > div > label {
+  display: block;
+}
+#authorized_ref > fieldset > div > div > ul > li {
+  margin-left: 10px;
+}
+/********BUTTON SUBMIT*************/
+.submitButton {
+  display: block;
+  margin: 15px auto 7px;
+  background-color: rgb(0, 45, 48);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 300;
+}

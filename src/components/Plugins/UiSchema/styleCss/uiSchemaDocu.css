@@ -1,0 +1,155 @@
+#docu_company {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#docu_company > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+
+  font-size: 0.8rem;
+}
+#docu_company > div > div > div > div {
+  margin-top: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px;
+}
+#docu_label-label {
+  display: none;
+}
+#docu_label > div > div > div > div {
+  margin-top: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px;
+}
+#docu_label {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#docu_label > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+
+  font-size: 0.8rem;
+}
+#docu_document_language {
+  margin-top: "15px";
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#docu_document_language > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+
+  font-size: 0.8rem;
+}
+#docu_document_language > div > div > div > div {
+  margin-top: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px;
+}
+#docu_project_name {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#docu_project_name > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+
+  font-size: 0.8rem;
+}
+#docu_project_name > div > div > div > div {
+  margin-top: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px;
+}
+#docu_project_type {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#docu_project_type > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+
+  font-size: 0.8rem;
+}
+#docu_project_type > div > div > div > div {
+  margin-top: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px;
+}
+#docu_attribute {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#docu_attribute > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+
+  font-size: 0.8rem;
+}
+#docu_attribute > div > div > div > div {
+  margin-top: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px;
+}
+#docu_attribute-label {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+#docu_value {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#docu_value > div > div > span {
+  border-top: 1px solid rgba(0, 45, 48, 0.7);
+
+  font-size: 0.8rem;
+}
+#docu_value > div > div > div > div {
+  margin-top: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px;
+}
+#docu_value
+  > .form-group.field.field-array
+  > div
+  > .MuiPaper-root.MuiPaper-elevation2.MuiPaper-rounded {
+  box-shadow: none;
+}
+.submitButtonDocu {
+  display: block;
+  margin: 25px auto 0;
+  background-color: rgb(0, 45, 48);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 300;
+}
+#docu_project_name__error {
+  text-align: center;
+  margin: 0 auto;
+  font-size: large;
+}
+#docu_value__error {
+  text-align: center;
+  margin: 0 auto;
+  font-size: large;
+}

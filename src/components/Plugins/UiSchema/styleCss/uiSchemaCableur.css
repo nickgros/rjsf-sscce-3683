@@ -1,0 +1,417 @@
+/************MUI Components**********************************/
+.MuiInput-underline:after {
+  border: 1px solid black;
+}
+.MuiInput-underline:before {
+  opacity: 0;
+}
+.MuiInput-underline.Mui-focused:after {
+  opacity: 0;
+}
+.MuiFormControlLabel-root > span > span > svg > path {
+  color: #2ddab2;
+  border-radius: 20px;
+}
+.MuiFormControlLabel-root > span {
+  letter-spacing: 0.8px;
+}
+/****************ALL TITLE and DESCRIPTION***********************/
+#cableur_title_general {
+  background-color: #002d30;
+  padding: 2px;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+#cableur_title_undefined {
+  background-color: #002d30;
+  padding: 2px;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  margin-top: 1rem;
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+}
+#cableur_title_selectionner {
+  display: none;
+}
+#cableur_title_transport {
+  display: none;
+}
+#cableur_title_distribution {
+  display: none;
+}
+#cableur_title_adduction {
+  display: none;
+}
+#cableur_title_subscriber {
+  display: none;
+}
+#cableur_title_transport_distribution {
+  display: none;
+}
+#cableur_title_transport_adduction {
+  display: none;
+}
+#cableur_title_transport_subscriber {
+  display: none;
+}
+#cableur_title_distribution_adduction {
+  display: none;
+}
+#cableur_title_distribution_subscriber {
+  display: none;
+}
+#cableur_title_adduction_subscriber {
+  display: none;
+}
+#cableur_title_transport_distribution_subscriber {
+  display: none;
+}
+#cableur_title_transport_distribution_adduction {
+  display: none;
+}
+#cableur_title_transport_adduction_subscriber {
+  display: none;
+}
+#cableur_title_distribution_adduction_subscriber {
+  display: none;
+}
+#cableur_title_transport_distribution_adduction_subscriber {
+  display: none;
+}
+#cableur_description_selectionner {
+  display: none;
+}
+#cableur_description_transport {
+  display: none;
+}
+#cableur_description_distribution {
+  display: none;
+}
+#cableur_description_adduction {
+  display: none;
+}
+#cableur_description_subscriber {
+  display: none;
+}
+#cableur_description_transport_distribution {
+  display: none;
+}
+#cableur_description_transport_adduction {
+  display: none;
+}
+#cableur_description_transport_subscriber {
+  display: none;
+}
+#cableur_description_distribution_adduction {
+  display: none;
+}
+#cableur_description_distribution_subscriber {
+  display: none;
+}
+#cableur_description_adduction_subscriber {
+  display: none;
+}
+#cableur_description_transport_distribution_subscriber {
+  display: none;
+}
+#cableur_description_transport_distribution_adduction {
+  display: none;
+}
+#cableur_description_transport_adduction_subscriber {
+  display: none;
+}
+#cableur_description_distribution_adduction_subscriber {
+  display: none;
+}
+#cableur_description_transport_distribution_adduction_subscriber {
+  display: none;
+}
+#cableur_description_select {
+  display: none;
+}
+#cableur_description_general {
+  display: none;
+}
+/**************END TITLE AND DESCRIPTION***********************/
+
+/*************FIRST PART COMPONENT********************/
+#cableur_attribute {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#cableur_value-label {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/******************GENERAL****************************/
+.form-group .field .field-boolean {
+  margin-left: 25px;
+}
+
+#cableur_general_multi_start {
+  position: inherit;
+}
+#cableur_attribute {
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px;
+}
+
+#cableur_value {
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px !important;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+#cableur_user {
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px !important;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+#cableur_label {
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px !important;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+#cableur_general_working_buffer_distance {
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  width: 97%;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+}
+#cableur_general_working_buffer_distance-label {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+  text-align: end;
+}
+#cableur_element > #cableur_fieldset > div > div > span {
+  font-size: 0.8rem;
+}
+
+/*******************NODES***************************/
+#cableur_nodes__anyof_select {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 10px;
+}
+#cableur_element
+  > #cableur_fieldset
+  > div
+  > div
+  > .panel.panel-default.panel-body
+  > .form-group {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#cableur_element
+  > #cableur_fieldset
+  > div
+  > div
+  > .panel.panel-default.panel-body
+  > .form-group
+  > div
+  > .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl {
+  border: 1px solid #002d30;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 7px;
+  width: 70%;
+  text-align: center;
+  display: block;
+  padding-left: 5px;
+}
+#menu-cableur_cables_nodes__anyof_select > div > ul > li:nth-child(5) {
+  border-bottom: 1px solid #002d30;
+}
+#menu-cableur_cables_nodes__anyof_select > div > ul > li:nth-child(1) {
+  border-bottom: 1px solid #002d30;
+}
+#menu-cableur_cables_nodes__anyof_select > div > ul > li:nth-child(11) {
+  border-bottom: 1px solid #002d30;
+}
+#menu-cableur_cables_nodes__anyof_select > div > ul > li:nth-child(15) {
+  border-bottom: 1px solid #002d30;
+}
+
+#cableur_fieldset > div > div > #root {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#root_max_cable_outgoing-label {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+#cableur_fieldset > div > div > label {
+  text-align: start;
+  font-size: small;
+}
+
+#cableur_cables_nodes__title {
+  background-color: #002d30;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#cableur_cables_nodes_node_start_attribute {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px !important;
+}
+#cableur_cables_nodes_node_start_value {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px !important;
+}
+#cableur_cables_nodes_tr_connect_authorized {
+  display: flex;
+  flex-direction: revert;
+}
+#cableur_cables_nodes_di_connect_authorized {
+  display: flex;
+  flex-direction: revert;
+}
+#cableur_cables_nodes_ad_connect_authorized {
+  display: flex;
+  flex-direction: revert;
+}
+#cableur_cables_nodes_ab_connect_authorized {
+  display: flex;
+  flex-direction: revert;
+}
+
+/***************INFRA*******************************/
+#cableur_infrastructure_snapping_permission {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 4px 0;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+}
+
+#cableur_infrastructure_snapping_distance {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 4px 0;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+}
+
+#cableur_infrastructure_distance_between_intersection_points {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 4px 0;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+}
+#cableur_infrastructure_nb_split_to_be_considered_intersection {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 4px 0;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(0, 45, 48, 0.7);
+}
+
+/************BUTTON **************************/
+.submitButtonCableur {
+  display: block;
+  margin: 15px auto 0;
+  background-color: rgb(0, 45, 48);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 300;
+}

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# /usr/bin/dumb-init /entrypoint exec docker  # original entrypoint
+gitlab-runner exec docker \
+  --env CI_REGISTRY_IMAGE=$CI_REGISTRY_IMAGE \
+  --env CI_COMMIT_TAG=$CI_COMMIT_TAG \
+  --env ILIAD_DOCKER_REGISTRY=$ILIAD_DOCKER_REGISTRY \
+  --env CI_PROJECT_PATH=$CI_PROJECT_PATH \
+  --env ILIAD_REGISTRY_USER=$ILIAD_REGISTRY_USER \
+  --env ILIAD_REGISTRY_PASSWORD=$ILIAD_REGISTRY_PASSWORD \
+  --env KANIKO_EXTRA_ARGS=$KANIKO_EXTRA_ARGS \
+  $GITLAB_CI_JOB_NAME

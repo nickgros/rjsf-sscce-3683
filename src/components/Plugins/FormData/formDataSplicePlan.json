@@ -1,0 +1,40 @@
+{
+    "user": "odyssee",
+    "cables": {
+      "constraints": {
+        "tr": {
+          "reserve_percentage": 0,
+          "max_length": 2500,
+          "length_tolerance_percentage": 5,
+          "default":0
+        },
+        "di": {
+          "reserve_percentage": 50,
+          "max_length": 1000,
+          "length_tolerance_percentage": 10
+        },
+        "ad": {
+          "reserve_percentage": 0,
+          "max_length": 0,
+          "length_tolerance_percentage": 0
+        },
+        "ab": {
+          "reserve_percentage": 0,
+          "max_length": 0,
+          "length_tolerance_percentage": 0
+        }
+      }
+    },
+    "nodes": {
+      "constraints": {
+        "tr": {
+        },
+        "di": {
+        },
+        "ad": {
+        },
+        "ab": {
+        }
+      }
+    }
+  }

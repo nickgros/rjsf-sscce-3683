@@ -1,0 +1,20 @@
+#!/bin/sh
+
+SCRIPT_PATH=/script
+echo "Current path : $SCRIPT_PATH"
+
+for TARGET in ${1:+"$@"}
+do
+    echo "Execute scripts : $TARGET"
+    for filepath in $SCRIPT_PATH/$TARGET/*.*;
+    do
+        filename=$(basename -- "$filepath")
+        if [ -f $filepath ]
+        then
+            "${filepath}"
+        else
+            echo "$TARGET not found"
+            exit 1
+        fi
+    done
+done
